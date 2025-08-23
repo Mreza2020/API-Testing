@@ -1,4 +1,4 @@
-module github.com/Mreza2020/testing_Api
+module github.com/Mreza2020/API-Testing
 
 go 1.24.4
 

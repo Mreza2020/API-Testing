@@ -34,7 +34,7 @@ Package features:
 
 To install the package, simply enter the following command:
 ```bash
-go get -u github.com/Mreza2020/testing_Api
+go get -u github.com/Mreza2020/API-Testing
 ```
 
 ## API-1-test
