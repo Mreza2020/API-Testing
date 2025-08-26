@@ -23,7 +23,7 @@ Package features:
 
   * [Installation](#Installation  
   * [API-1-test](#API-1-test)
-
+  * [API-2-Concurrency](#API-2-Concurrency)
 
 ---------------------------------------
 
@@ -49,6 +49,24 @@ TestPostApi:
 - The method type is post.
 - And to use it, you need to store the destination address in env.(Address)
 
+
+## API-2-Concurrency
+
+API-2-Concurrency consists of several parts:
+* Concurrency1 
+
+- The method type is post.
+- And to use it, you need to store the destination address in env.(Address)
+- To use it, you need to send `Concurrency` along with the content, like this example:
+```json
+{
+  "name" : "admin",
+  "Concurrency" : "1"
+
+}
+
+```
+`Concurrency` : Number of cycles or number of simultaneous file transfers
 
 
 
