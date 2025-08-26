@@ -12,6 +12,7 @@ Levels that the package can test:
 
 The names of the packages used along with the licenses for each are as follows:
 
+-------------------------------------------------------------
 1-gin      License  ==  [License](https://github.com/gin-gonic/gin?tab=MIT-1-ov-file "License gin") 
 Copyright (c) 2014 Manuel Martínez-Almeida
 -------------------------------------------------------------
