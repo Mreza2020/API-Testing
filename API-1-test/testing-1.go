@@ -15,7 +15,7 @@ type PostApiTest struct {
 }
 
 func TestPostApi(t *gin.Context) {
-	var test PostApiTest
+	var test map[string]interface{}
 	if err := t.ShouldBindJSON(&test); err != nil {
 		t.JSON(http.StatusBadRequest, gin.H{"error": "Invalid request"})
 		return
